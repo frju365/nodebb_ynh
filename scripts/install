@@ -167,7 +167,7 @@ sudo sed -i "s@dbpass@$dbpass@g" $final_path/config.json
 
 pushd "$final_path"
 sudo chown -R $app: $final_path
-sudo node app --setup=\"{\\\"admin:username\\\":\\\"'${admin_name}'\\\",\\\"admin:email\\\":\\\"'${admin_email}'\\\",\\\"admin:password\\\":\\\"'${admin_pass}'\\\",\\\"admin:password:confirm\\\":\\\"'${admin_pass}'\\\"}"
+sudo node app --setup=\"{\\\"admin:username\\\":\\\"${admin_name}\\\",\\\"admin:email\\\":\\\"${admin_email}\\\",\\\"admin:password\\\":\\\"${admin_pass}\\\",\\\"admin:password:confirm\\\":\\\"${admin_pass}\\\"}\";
 popd
 
 sudo chown -R nodebb:nodebb $final_path
