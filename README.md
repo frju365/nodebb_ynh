@@ -6,6 +6,6 @@ Status : Woking --> need to be tested !
 
 TODO : 
 
-[-] -creation of the user <br>
-[-] -choice between redis and Mongodb <br>  
-[-] -Backup/Restore/Upgrade 
+- [ ] Creation of the user 
+- [ ] Choice between redis and Mongodb 
+- [ ] Backup/Restore/Upgrade 
