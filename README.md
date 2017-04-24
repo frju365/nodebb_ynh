@@ -1,6 +1,6 @@
 # NodeBB
 
-NON FONCTIONNEL POUR L'INSTANT !
+Simple and complete forum for nodejs. It's a really beatiful forum, an alternative to Flarum or Discourse. 
 
 Status : Woking --> need to be tested !
 
